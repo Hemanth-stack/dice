@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color:#00bcd4;
+}
+.head{
+    color: #b2ebf2;
+    font-size: 60px;
+
+}
+.dice1{
+    background-image: url("images/dice6.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+
+}
+.dice2{
+    background-image: url("images/dice6.png");
+    top: 5px;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    right: 5px;
+    position:absolute;
+}
+.main{
+    margin: auto;
+    position: relative;
+    background-color:#ff5722 ;
+    width: 220px;
+    height: 110px;
+}
+footer{
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color:black;
+    background-color:dimgray;
+}
+.foot{
+    width: 100%;
+    position: absolute;
+    background-color:dimgray;
+}
+textarea{
+    border-color: black;
+    background:transparent;
+}
+input{
+    height: 30px;
+    width: 70px;
+    border: none;
+    color: darkslategray;
+    border-radius: 50px;
+    background-color:black ; 
+}
